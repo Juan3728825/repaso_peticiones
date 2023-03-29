@@ -1,0 +1,70 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "user",
+    "dateExported": "2023-03-29T20:58:20.991Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7bd712e5-5456-4ae4-a54c-a860fcf65dce",
+            "colId": "a6c1218c-84fc-4cb2-903c-7ebe237e4184",
+            "containerId": "",
+            "name": "spDeleteUser",
+            "url": "http://localhost:3000/api/userhttp://localhost:3000/api/user/2",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2023-03-29T20:57:51.008Z",
+            "modified": "2023-03-29T20:57:51.008Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d08b1703-f6e3-4336-9a85-2f9191ca5c09",
+            "colId": "a6c1218c-84fc-4cb2-903c-7ebe237e4184",
+            "containerId": "",
+            "name": "spFindUser",
+            "url": "http://localhost/api/user",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-03-29T20:57:57.616Z",
+            "modified": "2023-03-29T20:57:57.616Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0a53b82e-5a62-4e21-819a-2a6fede55da5",
+            "colId": "a6c1218c-84fc-4cb2-903c-7ebe237e4184",
+            "containerId": "",
+            "name": "spUpdateUser",
+            "url": "http://localhost:3000/api/user/2",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-03-29T20:58:02.752Z",
+            "modified": "2023-03-29T20:58:02.752Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fdb6d82a-8d78-4c49-820d-b47948fa032a",
+            "colId": "a6c1218c-84fc-4cb2-903c-7ebe237e4184",
+            "containerId": "",
+            "name": "spInsertUser",
+            "url": "http://localhost:3000/api/user",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-03-29T20:58:08.481Z",
+            "modified": "2023-03-29T20:58:08.481Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"inge\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
